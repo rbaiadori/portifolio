@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 320px;
+  height: auto;
+  padding: 8px;
+  border-radius: 16px;
+  border: solid 2px grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 140px;
+  width: 100%;
+  color: white;
+  background-color: blue;
+  font-size: 40px;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icoput{
+  width: 300px;
+  height: 200px;
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+.icons{
+  width: 32px;
+  height: 90%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 17px;
+   
+  
+
+
+}
+.login {
+  width: 300px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.login input {
+  width: 70%;
+  height: 28px;
+  margin: 4px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.enviar {
+  width: 100%;
+}

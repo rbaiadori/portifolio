@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronteira</title>
+</head>
+
+<body>
+    <h1>Sistema de Imigrantes</h1>
+    Onde você mora? <input type="text" name="pais" id="pais">
+    <input type="button" value="Informar" onclick="informar()">
+    <div id="res">
+    </div>
+
+    <script>
+        function informar() {
+            var tpais = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var vel = String(tpais.value)
+            res.innerText = `Seu país é ${vel}`
+
+            if (vel == 'Brasil') {
+                res.innerText = ('Você é Brasileiro!')
+            } else {
+                res.innerText = ('Você é Estrangeiro!')
+            }
+        }
+    </script>
+</body>
+
+</html>

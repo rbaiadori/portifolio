@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino modulo B</title>
+    <style>
+        body {
+            background-color: beige;
+            color: rgb(9, 115, 115);
+            font: normal 20pt Ariall;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        var idade = window.prompt(`Quantos ano voce tem ${nome} ?`)
+        var cor = window.prompt(`Qual a sua cor favorita ${nome} ?`)
+        var identGen = window.prompt('Qual pronome podemos usar?')
+        document.write(`Olá ${nome}! Agora sabemos que podemos te chamar de ${identGen}.<br/> Também sabemos que sua cor preferida é ${cor} e que você tem ${idade} anos.<br/>`)
+    </script>
+    <script>
+        var carro = window.prompt('Você tem carro? Se sim, quantos?')
+        var marca = window.prompt('Qual a marca do seu carro?')
+        var modelo = window.prompt(`Qual o modelo do seu ${marca}?`)
+        document.write(`Uau! Então ${nome} você tem ${carro} carro ${marca} modelo ${modelo}, incrível.<br/>`)
+    </script>
+    <script>
+        window.alert(`Queremos saber mais sobre você ${nome}!`)
+        var escola = window.prompt('Qual o seu grau de escolaridade?')
+        document.write(`Muito bem ${nome}, você estudou ate o ${escola}.`)
+    </script>
+</body>
+
+</html>
